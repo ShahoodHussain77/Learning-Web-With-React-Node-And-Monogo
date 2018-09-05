@@ -1,0 +1,39 @@
+{
+  "name": "learning-full-stack-web-with-react-node-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahoodHussain77/Learning-Web-With-React-Node-And-Monogo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahoodHussain77/Learning-Web-With-React-Node-And-Monogo/issues"
+  },
+  "homepage": "https://github.com/ShahoodHussain77/Learning-Web-With-React-Node-And-Monogo#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.4",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.5.0",
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.4",
+    "webpack": "^4.17.2"
+  }
+}
